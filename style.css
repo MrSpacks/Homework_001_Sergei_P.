@@ -89,6 +89,44 @@ header{
 
 /* Task 3 HTML Tutorial */
 
+.tutorial_subtitle, .tutorial_title{
+  text-align: center;
+}
+.bold{
+  font-weight: bold;
+}
+.dotted{
+  text-decoration: underline dotted;
+}
 .black{
   color: black;
+}
+.tutorial_footer{
+  display: flex;
+  align-items: center;
+}
+pre{
+  background-color: rgb(207,	207,	207);
+}
+a{
+  margin-left: 5px;
+  text-decoration: none;
+  color: rgb(75,	155,	164);
+  background-color: rgb(207,	207,	207);
+}
+
+/* footer */
+footer{
+  height: 50px;
+  background-color: #2c97be;
+  width: 100%;
+}
+.footer_text{
+  margin-left: 30px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: aliceblue;
+
 }
