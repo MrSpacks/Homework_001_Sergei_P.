@@ -13,8 +13,19 @@ section{
     max-width: 800px;
     margin: 0 auto;
 }
+.conteiner {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(242,242,242);
+  padding: 30px;
+
+}
 .title {
     color: rgb(21, 45, 90);
+    margin: 20px;
+}
+.text{
+  margin-left: 20px;
+  font-size: 20px;
 }
 
 /* header styles */
@@ -37,13 +48,8 @@ header{
   }
 }
 
-/* Task one styles */
+/* Task one styles book page*/
 
-.page {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(242,242,242);
-  padding: 10px;
-}
 .page_title {
   text-align: center;
   color: rgb(55,43,120);
@@ -60,4 +66,29 @@ header{
 .italic{
   font-style: italic;
   font-size: 12px;
+}
+
+/* Task 2 card game */
+
+.game_user {
+  font-weight: 400;
+  font-size: 24px;
+}
+/* .cards {
+  display: flex;    С этими сойствами мне нравилось больше, но макет есть макет)
+  justify-content: space-between;
+} */
+.card {
+  padding: 0 10px;
+  font-size: 47px;
+  background-color: rgb(217,	217,	217);
+}
+.red {
+  color: rgb(129,	0,	2);
+}
+
+/* Task 3 HTML Tutorial */
+
+.black{
+  color: black;
 }
